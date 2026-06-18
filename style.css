@@ -1,4 +1,4 @@
-/* A simple css reset */
+/* RESET */
 body,
 html {
     margin: 0;
@@ -8,23 +8,25 @@ html {
     box-sizing: border-box;
 }
 
-/* reset for images */
+/* IMAGE RESET */
 img {
     width: 100%;
 }
 
-/* HERO SECTION */
+/* 🌸 全局背景（和横幅同色） */
+body {
+    background-color: #ffb6d5;
+}
+
+/* HERO（横幅） */
 .hero {
-    background-image: url('images/背景图.png');
+    background-color: #ffb6d5;
     height: 25vh;
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
-    position: relative;
 }
 
 /* HERO TEXT */
@@ -33,43 +35,7 @@ img {
     font-weight: bold;
 }
 
-/* 🔥 BLACK TITLE BAR (你要的改这里) */
+/* 🌑 TITLE BAR（改成和背景同色） */
 .topic-title {
-    color: white;
-    font-size: 2em;
-    padding: 0.3em 3em;
-    background-color: black;
-}
-
-/* GRID LAYOUT */
-.topic-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 6em;
-    width: 70%;
-    margin: 3em auto;
-}
-
-/* CARD STYLE */
-.topic-card {
-    background-color: rgb(71, 71, 71);
-    color: white;
-    padding: 1em;
-    border-radius: 0.5em;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* CARD TEXT */
-.topic-card-text {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-    text-align: center;
-}
-
-/* FOOTER（你这里原来有错误，我帮你修好了） */
-.footer {
-    background-color: #d4a1b9;
-    color: black;
-    text-align: right;
-    padding: 3em 3em;
+   3em 3em;
 }
