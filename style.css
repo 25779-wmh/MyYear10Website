@@ -22,7 +22,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: pink;
     text-align: center;
     position: relative;
 }
@@ -69,7 +69,7 @@ img {
 /* FOOTER（你这里原来有错误，我帮你修好了） */
 .footer {
     background-color: #d4a1b9;
-    color: pink;
+    color: black;
     text-align: right;
     padding: 3em 3em;
 }
