@@ -22,7 +22,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: pink;
+    color: gray;
     text-align: center;
     position: relative;
 }
