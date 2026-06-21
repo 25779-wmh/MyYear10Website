@@ -15,14 +15,14 @@ img {
 
 /* HERO SECTION */
 .hero {
-    background-image: url('images/背景.png');
+    background-image: url('images/背景图真的.png');
     height: 25vh;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: gray;
+    color: black;
     text-align: center;
     position: relative;
 }
