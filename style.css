@@ -2,32 +2,73 @@ body,
 html {
     margin: 0;
     padding: 0;
-    min-height: 100%;
+    height: 100%;
     font-family: Arial, sans-serif;
-}
-
-/* 全局盒模型 */
-* {
     box-sizing: border-box;
 }
 
-/* 图片 */
+/* reset for images */
 img {
     width: 100%;
-    height: auto;
-    display: block;
 }
 
 /* HERO SECTION */
 .hero {
     background-image: url('images/好看的背景图片.png');
+    height: 25vh;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-
-    /* 原来25vh，改大 */
-    height: 50vh;
-    min-height: 350px;
-
     display: flex;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+/* HERO TEXT */
+.hero-text {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+/* 🔥 BLACK TITLE BAR (你要的改这里) */
+.topic-title {
+    color: white;
+    font-size: 2em;
+    padding: 0.3em 3em;
+    background-color: black;
+}
+
+/* GRID LAYOUT */
+.topic-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6em;
+    width: 70%;
+    margin: 3em auto;
+}
+
+/* CARD STYLE */
+.topic-card {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* CARD TEXT */
+.topic-card-text {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+/* FOOTER（你这里原来有错误，我帮你修好了） */
+.footer {
+    background-color: #d4a1b9;
+    color: black;
+    text-align: right;
+    padding: 3em 3em;
+}
